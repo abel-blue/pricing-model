@@ -1,6 +1,7 @@
 # pricing-model
 
-<img src="https://www.freelogovectors.net/wp-content/uploads/2018/07/tensorflow-logo.png" height="80">
+<img src="https://www.freelogovectors.net/wp-content/uploads/2018/07/tensorflow-logo.png" height="70">
+<br>
 <img src="https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png" height="80">
 
 ## Introduction
