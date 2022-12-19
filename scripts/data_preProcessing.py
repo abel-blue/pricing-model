@@ -9,7 +9,6 @@ from log import App_Logger
 
 app_logger = App_Logger("logs/data_preProcessing.log").get_app_logger()
 
-
 class data_preProcessing_script:
 
     def __init__(self, df: pd.DataFrame) -> None:
