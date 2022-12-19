@@ -1,0 +1,17 @@
+2022-12-15 13:17:53,444 : INFO : log : Showing data information
+2022-12-15 13:20:05,590 : INFO : log : Colums with missing values: []
+2022-12-15 13:20:31,914 : INFO : log : Showing missing percentage
+2022-12-15 13:21:45,966 : INFO : log : Dropped duplicates: Int64Index([], dtype='int64')
+2022-12-15 13:22:21,798 : INFO : log : Showing data description
+2022-12-15 13:22:56,112 : INFO : log : Showing datatypes
+2022-12-15 13:31:12,167 : INFO : log : Plot a box plot.
+2022-12-15 13:32:35,235 : INFO : log : Plot a box plot.
+2022-12-15 13:33:56,317 : INFO : log : Plot a box plot.
+2022-12-15 13:34:06,224 : INFO : log : Plot a box plot.
+2022-12-15 13:35:13,484 : INFO : log : Plot a box plot.
+2022-12-15 13:35:46,058 : INFO : log : Plot a box plot.
+2022-12-15 13:36:09,256 : INFO : log : Plot a box plot.
+2022-12-15 13:37:32,070 : INFO : log : Plot a box plot.
+2022-12-15 13:41:19,936 : INFO : log : Outlier for ['output_own_price', 'output_own_cost', 'output_comp_price', 'output_own_profits', 'output_X', 'output_own_share', 'output_own_sales'] is fixed
+2022-12-15 13:41:19,936 : INFO : log : Outlier for ['output_own_price', 'output_own_cost', 'output_comp_price', 'output_own_profits', 'output_X', 'output_own_share', 'output_own_sales'] is fixed
+2022-12-15 14:35:17,071 : INFO : log : Showing data information
