@@ -63,6 +63,6 @@ cd pricing-model
 sudo python3 setup.py install
 python scripts/test.py
 ```
-## Next Steps
+## contract next steps 
 - Fine tune model parameters ( `n_layers`, RNN `cell`, number of `units`, etc.)
 - Tune training parameters ( `batch_size`, `optimizer`, etc. )
