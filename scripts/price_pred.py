@@ -121,7 +121,7 @@ class PricePrediction:
         self.model.summary()
 
         self.model.compile(optimizer='adam', loss='mean_squared_error')
-        self.model.fit(x_train, y_train, batch_size= 1, epochs=1)
+        self.model.fit(x_train, y_train, batch_size= 1, epochs=3)
 
         self.model_trained = True
         if self.verbose > 0:

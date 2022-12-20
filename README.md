@@ -9,7 +9,7 @@ This repository uses recurrent neural networks/lstm to predict the price of 55 m
 
 ## Getting Started
 to use this repository, install required packages
-1. Python 3.7
+1. python==3.7
 2. keras==2.2.4
 3. sklearn==0.20.2
 4. numpy==1.16.2
