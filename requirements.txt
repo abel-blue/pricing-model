@@ -111,3 +111,7 @@ traitlets==5.1.1
 dvc==2.10.2                   
 dvc-render==0.0.5        
 dvclive==0.8.1 
+keras==2.2.4
+sklearn==0.20.2
+numpy==1.16.2
+matplotlib==2.2.3
