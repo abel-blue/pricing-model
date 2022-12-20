@@ -49,11 +49,8 @@ Mean Absolute Error: 145.36850360261292
 Mean Squared Error: 40611.868264624296
 Accuracy: 63.655%
 ```
-<img src="images/pred.png" height="400" width="600">
-
-Training logs are stored in `logs` folder that can be opened using [tensorboard](https://github.com/tensorflow/tensorboard), as well as model weights in `results` folder.
+<img src="images/pred.png" height="500" width="800">
 
 ## Next Steps
 - Fine tune model parameters ( `n_layers`, RNN `cell`, number of `units`, etc.)
 - Tune training parameters ( `batch_size`, `optimizer`, etc. )
-- Try out different markets such as *NFLX (Netflix)*, *AAPL (Apple)* by setting the `ticker` parameter
