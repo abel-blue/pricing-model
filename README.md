@@ -56,7 +56,6 @@ Accuracy: 63.655%
 
 # <a name='Installation guide'></a>Installation guide
 
-Next
 
 ```bash
 git clone https://github.com/Abel-Blue/pricing-model.git
