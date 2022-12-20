@@ -1,5 +1,5 @@
 <h1 align="center">Market Price Utilizing Deep Learning</h1>
-<h3 align="center">A deep learning approach for estimation of price determinants</h3>
+<p align="center">A deep learning approach for estimation of price determinants</p>
 
 <img src="https://www.freelogovectors.net/wp-content/uploads/2018/07/tensorflow-logo.png" height="70">
 <br>
