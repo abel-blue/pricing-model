@@ -32,7 +32,7 @@ p = PricePrediction("USD", epochs=1000, cell=LSTM, n_layers=3, units=256, loss="
 
 # train the model if not trained yet
 p.train()
-# predict the next price for BTC
+# predict the next price for profit
 p.predict()
 
 # print some metrics
