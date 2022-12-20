@@ -78,7 +78,7 @@ class PricePrediction:
 
         plt.figure(figsize=(18, 9))
         plt.title('Profit History')
-        plt.plot(self.df['output_own_profits'].head(1000))
+        plt.plot(self.df['output_own_profits'])
         plt.xlabel('Date')
         plt.ylabel('Profits ($)')
         # plt.show()

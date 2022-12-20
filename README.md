@@ -1,4 +1,5 @@
-<h1 align="center">A deep learning approach for estimation of price determinants</h1>
+<h1 align="center">Market Price Utilizing Deep Learning</h1>
+<h3 align="center">A deep learning approach for estimation of price determinants</h3>
 
 <img src="https://www.freelogovectors.net/wp-content/uploads/2018/07/tensorflow-logo.png" height="70">
 <br>
@@ -9,11 +10,11 @@ This repository uses recurrent neural networks/lstm to predict the price of 55 m
 
 ## Getting Started
 to use this repository, install required packages
-1. python==3.7
-2. keras==2.2.4
-3. sklearn==0.20.2
-4. numpy==1.16.2
-5. pandas==0.23.4
+1. python==3.9.12
+2. keras==2.11.0
+3. sklearn==1.0.2
+4. numpy==1.21.5
+5. pandas==1.4.2
 6. matplotlib==2.2.3
 
 using the following command:
@@ -31,7 +32,7 @@ ticker = "USD"
 p = PricePrediction("USD", epochs=1000, cell=LSTM, n_layers=3, units=256, loss="mae", optimizer="adam")
 
 # train the model if not trained yet
-p.train()
+p.train(data_path)
 # predict the next price for profit
 p.predict()
 
@@ -49,7 +50,7 @@ Mean Absolute Error: 145.36850360261292
 Mean Squared Error: 40611.868264624296
 Accuracy: 63.655%
 ```
-<img src="images/pred.png" height="500" width="800">
+<img src="images/pred_2.png" height="500" width="800">
 
 <hr>
 
