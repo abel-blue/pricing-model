@@ -1,5 +1,3 @@
-# pricing-model
-
 <h1 align="center">A deep learning approach for estimation of price determinants</h1>
 
 <img src="https://www.freelogovectors.net/wp-content/uploads/2018/07/tensorflow-logo.png" height="70">
@@ -7,7 +5,7 @@
 <img src="https://s3.amazonaws.com/keras.io/img/keras-logo-2018-large-1200.png" height="80">
 
 ## Introduction
-This repository uses recurrent neural networks to predict the price of any stock, currency or cryptocurrency ( any market that [yahoo_fin](http://theautomatic.net/yahoo_fin-documentation/) library supports ) using **keras** library.
+This repository uses recurrent neural networks/lstm to predict the price of 55 market currencies using **keras** library.
 
 ## Getting Started
 to use this repository, install required packages
@@ -22,8 +20,6 @@ using the following command:
 ```
 pip3 install -r requirements.txt
 ```
-## Dataset
-Dataset is downloaded automatically using [yahoo_fin](http://theautomatic.net/yahoo_fin-documentation/) package and stored in `data` folder. click [here](http://theautomatic.net/yahoo_fin-documentation/) for more information about different tickers.
 ### **Example**
 ```python
 from keras.layers import GRU, LSTM, CuDNNLSTM
