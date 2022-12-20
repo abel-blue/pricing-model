@@ -16,8 +16,6 @@ import tensorflow as tf
 from tensorflow import keras
 from keras import layers
 
-from utils import classify, shift, create_model, load_data
-
 class PricePrediction:
     """A Class utility to train and predict price of stocks/cryptocurrencies/trades
         using keras model"""
@@ -70,9 +68,9 @@ class PricePrediction:
                                     optimizer=self.optimizer)
 
 
-    def train(self):
+    def train(self, path):
 
-        self.df = pd.read_csv('../data/output_data.csv')
+        self.df = pd.read_csv(path)
         self.df['output_date'] = pd.to_datetime(self.df['output_date'])
         # set the index
         self.df.set_index('output_date', inplace=True)
@@ -134,22 +132,19 @@ class PricePrediction:
         predictions = self.model.predict(self.x_test)
         predictions = self.scaler.inverse_transform(predictions)
         rmse = np.sqrt(np.mean(predictions - self.y_test)**2)
-
+        rmse
         data = self.df.filter(['output_own_profits'])
         train = data[:self.training_data_len]
         validation = data[self.training_data_len:]
         validation['Predictions'] = predictions
-        # plt.figure(figsize=(16,8))
-        # plt.title('Model')
-        # plt.xlabel('Date')
-        # plt.ylabel('Profit USD ($)')
-        # plt.plot(train)
-        # plt.plot(validation[['output_own_profits', 'Predictions']])
-        # plt.legend(['Train', 'Val', 'Predictions'], loc='lower right')
-        # plt.show()
-        self.model_trained = True
-        if self.verbose > 0:
-            print("[+] Model Prediction")
+        plt.figure(figsize=(16,8))
+        plt.title('Model')
+        plt.xlabel('Date')
+        plt.ylabel('Profit USD ($)')
+        plt.plot(train)
+        plt.plot(validation[['output_own_profits', 'Predictions']])
+        plt.legend(['Train', 'Val', 'Predictions'], loc='lower right')
+        plt.show()
 
     # some metrics
 

@@ -21,11 +21,11 @@ p = PricePrediction("USD", epochs=100, cell=LSTM, optimizer="adam", n_layers=3,
                     units=256, loss="mae")
 
 # train model
-p.train()
+# add path for the train datasets
+p.train('../data/output_data.csv')
 # predict model
 p.predict()
 
-print("Mean Absolute Error:", p.get_MAE())
-print("Mean Squared Error:", p.get_MSE())
-
-p.plot_test_set()
+# print("Mean Absolute Error:", p.get_MAE())
+# print("Mean Squared Error:", p.get_MSE())
+# p.plot_test_set()
