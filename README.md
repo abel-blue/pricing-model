@@ -51,6 +51,18 @@ Accuracy: 63.655%
 ```
 <img src="images/pred.png" height="500" width="800">
 
+<hr>
+
+# <a name='Installation guide'></a>Installation guide
+
+Next
+
+```bash
+git clone https://github.com/Abel-Blue/pricing-model.git
+cd pricing-model
+sudo python3 setup.py install
+python scripts/test.py
+```
 ## Next Steps
 - Fine tune model parameters ( `n_layers`, RNN `cell`, number of `units`, etc.)
 - Tune training parameters ( `batch_size`, `optimizer`, etc. )
