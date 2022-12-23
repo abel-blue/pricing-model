@@ -61,7 +61,8 @@ Accuracy: 63.655%
 git clone https://github.com/Abel-Blue/pricing-model.git
 cd pricing-model
 sudo python3 setup.py install
-python scripts/test.py
+cd scripts
+python test.py
 ```
 ## Next Steps 
 - Fine tune model parameters ( `n_layers`, RNN `cell`, number of `units`, etc.)
